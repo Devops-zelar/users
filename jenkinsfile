@@ -1,5 +1,5 @@
-pipeline{
-  agent agent1
+pipeline {
+  agent any
 
   stages {
     stage ('prepare Artifact') {
